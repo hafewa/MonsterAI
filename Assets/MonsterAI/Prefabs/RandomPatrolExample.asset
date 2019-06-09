@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc4e29cf17a1b548a04e7a49426236d, type: 3}
+  m_Name: RandomPatrolExample
+  m_EditorClassIdentifier: 
+  PRIORITY: 1
+  ActionSound: []
+  PlayerCharacter: {fileID: 0}
+  animator: {fileID: 0}
+  OnActionFinished: 0
+  WalkRandomly: 0
+  WaypointsTag: DefaultWaypoint
+  delay: 5
+  StoppingDistance: 0.1
